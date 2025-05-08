@@ -233,7 +233,7 @@ async function loginUser(req,res){
     const options = {
       httpOnly: true,
       secure: false,
-      sameSite: 'lax',
+      sameSite: 'None',
       maxAge: 24 * 60 * 60 * 1000,
       path: '/'
     }
