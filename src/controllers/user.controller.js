@@ -235,7 +235,6 @@ async function loginUser(req,res){
       secure: false,
       sameSite: 'lax',
       maxAge: 24 * 60 * 60 * 1000,
-      domain: 'localhost',
       path: '/'
     }
     
